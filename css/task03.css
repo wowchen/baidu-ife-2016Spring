@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container, .c-left, .c-right, .c-middle {
+    padding: 20px;
+    border: 1px #999 solid;
+}
+
+.container {
+    margin: 20px;
+    background-color: #ccc;
+    zoom: 1;
+    overflow: hidden;
+}
+
+.c-left {
+    width: 160px;
+    float: left;
+    background-color: white;
+}
+
+.c-right {
+    width: 80px;
+    float: right;
+    background-color: white;
+}
+
+.c-middle {
+    margin: 0 140px 0 220px;
+    background-color: white;
+}
+
+img {
+    border: 1px #999 solid;
+}
+
+.team-logo img {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.team-logo label {
+    width: 60px;
+    float: right;
+}
+
+.person-logo img {
+    width: 80px;
+    height: 80px;
+}
